@@ -23,5 +23,11 @@ def using_shift(array)
   array.shift
 end
 
-def shift_with_args()
-  
+def shift_with_args(array, num = 2)
+  list = []
+  count = 0
+  if count < num
+    list.append(array.shift)
+    count += 1
+  end
+end

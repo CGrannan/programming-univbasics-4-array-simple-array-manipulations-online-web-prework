@@ -11,9 +11,12 @@ def using_pop(array)
 end
 
 def pop_with_args(array, num = 2)
+  list = []
   count = 0
   if count < num
-    array.pop
+    list.append(array.pop)
+    count +=1
+  end
 end
 
 def using_shift(array)

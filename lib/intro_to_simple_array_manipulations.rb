@@ -17,6 +17,7 @@ def pop_with_args(array, num = 2)
     list.append(array.pop)
     count +=1
   end
+  list
 end
 
 def using_shift(array)
@@ -30,4 +31,5 @@ def shift_with_args(array, num = 2)
     list.append(array.shift)
     count += 1
   end
+  list
 end

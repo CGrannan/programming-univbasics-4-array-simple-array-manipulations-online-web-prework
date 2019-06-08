@@ -10,14 +10,8 @@ def using_pop(array)
   array.pop
 end
 
-def pop_with_args(array, num = 2)
-  list = []
-  count = 0
-  if count < num
-    list.append(array.pop)
-    count +=1
-  end
-  list
+def pop_with_args(array)
+
 end
 
 def using_shift(array)
@@ -25,4 +19,12 @@ def using_shift(array)
 end
 
 def shift_with_args(array)
+  
 end
+
+def using_concat(array1, array2)
+  array1.concat(array2)
+end
+
+def using_insert(array, element)
+  
